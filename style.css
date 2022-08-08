@@ -171,9 +171,6 @@ ul li:last-of-type{
 
     }
 
-    .btn p{
-        font-weight: 700;
-    }
 
     .btn:hover{
         cursor:pointer;
