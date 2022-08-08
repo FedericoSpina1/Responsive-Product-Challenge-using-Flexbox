@@ -65,25 +65,29 @@ h1{
     color: var(--clr-neutral-800);
 }
 
-h2{
-    color: var(--clr-primary-400);
-    
-}
-
 h4{
     font-size: 0.8rem;
     letter-spacing: 0.3rem;
 }
 
-h5{
-    font-size: 0.67em;
-    text-decoration: line-through;
-    text-decoration-color: hsl(226, 7%, 65%);
-}
-
 a, a:visited, a:active{
     text-decoration: none;
     color: var(--clr-primary-400);
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li:first-of-type{
+    color:var(--clr-primary-400);
+    font-size: 2.1rem;
+}
+
+ul li:last-of-type{
+    font-size: 0.67em;
+    text-decoration: line-through;
+    text-decoration-color: hsl(226, 7%, 65%);
 }
 
 /* Helpers */
