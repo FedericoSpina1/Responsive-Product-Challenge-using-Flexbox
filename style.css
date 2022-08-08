@@ -75,7 +75,8 @@ h4{
     letter-spacing: 0.3rem;
 }
 
-h6{
+h5{
+    font-size: 0.67em;
     text-decoration: line-through;
     text-decoration-color: hsl(226, 7%, 65%);
 }
